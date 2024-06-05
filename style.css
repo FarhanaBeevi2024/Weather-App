@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://cdn.dribbble.com/users/2112037/screenshots/10923440/media/cb1bd553d13352305d8092f788d3a9f2.gif");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  transition: height 0.6s ease;
+}
+
+#location {
+  width: 400px;
+}
+
+.weather-icon {
+  width: 200px;
+  height: 100px;
+}
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 18px;
+  
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+
+
+
